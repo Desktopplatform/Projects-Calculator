@@ -1,0 +1,56 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+
+    background: #Ecfffb;
+  
+  }
+  #main{
+    margin: 0 auto;
+    width: 960px;
+  }
+  
+  .calcualtor{
+    width: 40%;
+    background-color: #BDBDBD;
+    margin: 0 auto;
+    transform: translate(0,30%);
+    padding: 10px;
+    overflow: hidden;
+  }
+  .display{
+    border: 1px solid #000;
+    font-size: 1.3em;
+    background-color: #f1f1f1;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .btn{
+    color: #fff;
+    background-color: #414141;
+    text-align: center;
+    border: 1px solid #BDBDBD;
+    border-radius: 15px;
+    float: left;
+    width: 23.5%;
+    margin: 2px;
+    height: 50px;
+    padding: 10px 5px;
+    box-shadow: 1px 1px 2px #000;
+    font-size:1.3em ;
+    cursor: pointer;
+    user-select: none;/*دسترسی select رو از کاربر میگیره*/
+  }
+  .btn:hover{
+    background-color: #5e5e5e;
+  }
+  .btn:active{
+    box-shadow: 1px 1px 5px #000 inset;/*inset سایه رو در داخل المان میندازه*/
+    padding: 9px;
+  }
